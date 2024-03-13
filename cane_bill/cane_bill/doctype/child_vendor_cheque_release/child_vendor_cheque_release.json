@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-23 14:21:46.382781",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_on_cheque",
+  "bank",
+  "column_break_yycwk",
+  "column_break_ukomz",
+  "column_break_rmsnb",
+  "column_break_zwwe6",
+  "type",
+  "total_amount",
+  "section_break_ik4nc",
+  "check_number",
+  "cheque_book_name",
+  "doc_name",
+  "account_with_amount",
+  "payment_type",
+  "cancel_cheque",
+  "h_and_t_advance_doc"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_yycwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ukomz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rmsnb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "column_break_zwwe6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ik4nc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "check_number",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cheque  Number"
+  },
+  {
+   "fieldname": "doc_name",
+   "fieldtype": "Small Text",
+   "label": "Doc Name"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bank Name",
+   "options": "Bank Name"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type Of Chque"
+  },
+  {
+   "fieldname": "name_on_cheque",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "account_with_amount",
+   "fieldtype": "Small Text",
+   "label": "Account with amount"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Small Text",
+   "label": "Payment Type"
+  },
+  {
+   "fieldname": "cheque_book_name",
+   "fieldtype": "Data",
+   "label": "Cheque Book Name"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "cancel_cheque",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Cancel Cheque"
+  },
+  {
+   "fieldname": "h_and_t_advance_doc",
+   "fieldtype": "Small Text",
+   "label": "if Advances doc of h and t contract"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-15 12:22:42.152996",
+ "modified_by": "Administrator",
+ "module": "cane_bill",
+ "name": "Child Vendor Cheque Release",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
